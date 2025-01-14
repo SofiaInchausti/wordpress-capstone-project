@@ -1,0 +1,88 @@
+/*
+Theme Name: Capstone-Project
+Theme URI: 
+Author: Sofia Inchausti
+Author URI: https://www.linkedin.com/in/sofia-inchausti/
+Description: A lightweight, customizable WordPress theme with advanced API and plugin support.
+Version: 1.0
+Text Domain: capstone-project
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: theme, wordpress theme, custom theme
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.top-bar {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.brand a {
+    text-decoration: none;
+    color: #333;
+}
+
+.site-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.site-title span {
+    display: block;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
