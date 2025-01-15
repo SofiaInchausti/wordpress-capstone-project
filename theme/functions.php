@@ -1,23 +1,6 @@
 <?php
-
-/**
- * Capstone functions
- * 
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- * 
- * @package Capstone functions
- */
-
-
-/**
- * Enqueue scripts and styles.
- */
-
-function scripts()
-{
-    wp_enqueue_style('capstone-project', get_stylesheet_uri(), array(), filemtime(get_template_directory() . '/style.css'), 'all');
-
+function my_theme_enqueue_styles() {
+    wp_enqueue_style('main-style', get_stylesheet_uri
+());
 }
-add_action('wp_enqueue_scripts', 'scripts');
-
-
+add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
