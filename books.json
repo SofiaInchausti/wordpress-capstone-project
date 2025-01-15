@@ -1,0 +1,21 @@
+[
+    {
+      "post_title": "The Great Gatsby",
+      "post_content": "A classic novel by F. Scott Fitzgerald about the enigmatic Jay Gatsby and his love for Daisy Buchanan.",
+      "post_status": "publish",
+      "post_type": "books"
+    },
+    {
+      "post_title": "1984",
+      "post_content": "George Orwell’s dystopian novel about totalitarianism, surveillance, and control.",
+      "post_status": "publish",
+      "post_type": "books"
+    },
+    {
+      "post_title": "To Kill a Mockingbird",
+      "post_content": "Harper Lee’s Pulitzer Prize-winning novel about racial injustice in the American South.",
+      "post_status": "publish",
+      "post_type": "books"
+    }
+  ]
+  
