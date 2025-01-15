@@ -1,0 +1,31 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "Book Title 1",
+        "content": "This is the content of the first book.",
+        "excerpt": "Short description of the first book.",
+        "date": "2025-01-14",
+        "slug": "book-title-1",
+        "meta": {
+          "custom_field_1": "Value 1",
+          "custom_field_2": "Value 2"
+        },
+        "thumbnail": "https://example.com/wp-content/uploads/2025/01/book1.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Book Title 2",
+        "content": "This is the content of the second book.",
+        "excerpt": "Short description of the second book.",
+        "date": "2025-01-13",
+        "slug": "book-title-2",
+        "meta": {
+          "custom_field_1": "Value A",
+          "custom_field_2": "Value B"
+        },
+        "thumbnail": "https://example.com/wp-content/uploads/2025/01/book2.jpg"
+      }
+    ]
+  }
+  
